@@ -1,6 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ananddb?createDatabaseIfNotExist=true
-    username: Devroot
-    password: Dev@123
+    url: jdbc:mysql://localhost:3306/corflowschema?createDatabaseIfNotExist=true
+    username: root
+    password: Anand@123
