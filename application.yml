@@ -1,2 +1,2 @@
 spring.profiles.active: dev
-greeting.message: helo im config server from git
+greeting.message: helo im config server from git updated
