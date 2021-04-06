@@ -1,2 +1,6 @@
-message:
- greeting: Msg from Dev env remote file
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ananddb?createDatabaseIfNotExist=true
+    username: Devroot
+    password: Dev@123
