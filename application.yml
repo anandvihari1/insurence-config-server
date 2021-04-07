@@ -5,4 +5,11 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/corflowschema?createDatabaseIfNotExist=true
     username: root
-    password: Anand@123
+    password: Anand@123 
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
