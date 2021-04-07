@@ -3,6 +3,6 @@ greeting.message: helo im config server from git updated one
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/ananddb?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/corflowschema?createDatabaseIfNotExist=true
     username: root
     password: Anand@123
